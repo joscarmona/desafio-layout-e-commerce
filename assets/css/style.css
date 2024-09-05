@@ -1,0 +1,93 @@
+/* ******************************************************** */
+/* ************************* BODY ************************* */
+/* ******************************************************** */
+body{
+    /* background-color: brown; */
+    background-color: rgb(231, 231, 231);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* ******************************************************** */
+/* ******************* MENÚ DE NAVEGACIÓN ***************** */
+/* ******************************************************** */
+.menu-navegacion{
+    grid-area: menu-navegacion;
+    /* background-color: red; */
+    background-color: rgb(37, 82, 123);
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+nav h3{
+    font-weight: 400;
+    /* font-size: 1.5rem; */
+}
+
+/* ******************************************************** */
+/* ********************* MENÚ LATERAL ********************* */
+/* ******************************************************** */
+.menu-lateral{
+    grid-area: menu-lateral;
+    /* background-color: aquamarine; */
+    /* se usa flex para alinear contenido */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px;
+}
+
+.menu-lateral h2{
+    color: rgb(56, 61, 70);
+} 
+
+.menu-lateral article p{
+    margin-bottom: 5px;
+    color: rgb(56, 61, 70);
+}
+
+.menu-lateral article{
+    width: 85%;
+}
+
+/* ******************************************************** */
+/* ********************** PRODUCTOS *********************** */
+/* ******************************************************** */
+.productos{
+    grid-area: productos;
+    background-color: blueviolet;
+}
+
+/* ******************************************************** */
+/* ******************** PIE DE PÁGINA ********************* */
+/* ******************************************************** */
+.pie-pagina{
+    grid-area: pie-pagina;
+    /* background-color: chartreuse; */
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 66, 76);
+    align-content: center;
+    text-align: center;
+}
+
+footer h4{
+    font-weight: 400;
+}
+
+/* ******************************************************** */
+/* ******************** LAYOUT GENERAL ******************** */
+/* ******************************************************** */
+.layout-general{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    'menu-navegacion menu-navegacion'
+    'menu-lateral productos'
+    'pie-pagina pie-pagina';
+    /* se define los tamaños que ocupa cada área en el diseño general */
+    grid-template-columns: 1fr 8fr;
+    grid-template-rows: 1fr 12fr 1fr;
+}
