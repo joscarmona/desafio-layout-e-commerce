@@ -202,6 +202,6 @@ footer h4{
     'menu-lateral productos'
     'pie-pagina pie-pagina';
     /* se define los tamaños que ocupa cada área en el diseño general */
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 7fr;
     grid-template-rows: 1fr 12fr 1fr;
 }
