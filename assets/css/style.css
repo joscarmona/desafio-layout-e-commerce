@@ -59,31 +59,27 @@ nav h3{
 .productos{
     grid-area: productos;
     /* background-color: blueviolet; */
-    /* text-align: center; */
-    /* align-content: center; */
-    /* align-items: center; */
-    /* justify-items: center; */
-    /* justify-content: center; */
-    /* justify-items: center; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     padding: 10px 10px 10px 0px;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 .producto-1{
-    /* grid-area: producto-1; */
     /* border: solid 1px black; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     background-color: white;
+    gap: 10px;
 }
 
 /* .card-body{
     width: 100%;
-    height: 80%;
+    height: 60%;
+    flex-grow: 1;
 } */
 .bg-producto-1{
     background-image: url("../image/perfume.webp");
@@ -91,9 +87,10 @@ nav h3{
     background-size: contain;
     background-position: center;
     width: 100%;
-    height: 70%;
+    height: 60%;
     /* width: 4rem; */
     /* border: solid 3px chocolate; */
+    flex-grow: 1;
 }
 
 .producto-2{
@@ -102,18 +99,21 @@ nav h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     background-color: white;
+    gap: 10px;
 }
 
 .bg-producto-2{
-    background-image: url("../image/ropa.webp");
+    background-image: url("../image/polera.webp");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     width: 100%;
-    height: 70%;
+    height: 60%;
     /* width: 4rem; */
     /* border: solid 3px chocolate; */
+    flex-grow: 1;
 }
 
 .producto-3{
@@ -122,18 +122,21 @@ nav h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     background-color: white;
+    gap: 10px;
 }
 
 .bg-producto-3{
-    background-image: url("../image/accesorio.webp");
+    background-image: url("../image/cartera.webp");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     width: 100%;
-    height: 70%;
+    height: 60%;
     /* width: 4rem; */
     /* border: solid 3px chocolate; */
+    flex-grow: 1;
 }
 
 .producto-4{
@@ -142,7 +145,9 @@ nav h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     background-color: white;
+    gap: 10px;
 }
 
 .bg-producto-4{
@@ -151,9 +156,10 @@ nav h3{
     background-size: contain;
     background-position: center;
     width: 100%;
-    height: 70%;
+    height: 60%;
     /* width: 4rem; */
     /* border: solid 3px chocolate; */
+    flex-grow: 1;
 }
 
 button{
@@ -166,6 +172,7 @@ button{
 
 .precio{
     color: rgb(60, 66, 76);
+    font-weight: 300;
 }
 
 /* ******************************************************** */
