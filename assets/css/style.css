@@ -68,28 +68,104 @@ nav h3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    margin-right: 10px;
+    padding: 10px 10px 10px 0px;
     border: solid 2px red;
 }
 
 .producto-1{
     /* grid-area: producto-1; */
-    border: solid 1px black;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+/* .card-body{
+    width: 100%;
+    height: 80%;
+} */
+.bg-producto-1{
+    background-image: url("../image/perfume.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 70%;
+    /* width: 4rem; */
+    /* border: solid 3px chocolate; */
 }
 
 .producto-2{
     /* grid-area: producto-2; */
-    border: solid 1px black;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.bg-producto-2{
+    background-image: url("../image/ropa.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 70%;
+    /* width: 4rem; */
+    /* border: solid 3px chocolate; */
 }
 
 .producto-3{
     /* grid-area: producto-3; */
-    border: solid 1px black;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.bg-producto-3{
+    background-image: url("../image/accesorio.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 70%;
+    /* width: 4rem; */
+    /* border: solid 3px chocolate; */
 }
 
 .producto-4{
     /* grid-area: producto-4; */
-    border: solid 1px black;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.bg-producto-4{
+    background-image: url("../image/zapatos.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 70%;
+    /* width: 4rem; */
+    /* border: solid 3px chocolate; */
+}
+
+button{
+    width: 100%;
+    border: none;
+    background-color: rgb(37, 82, 123);
+    color: white;
+    height: 1.5rem;
+}
+
+.precio{
+    color: rgb(60, 66, 76);
 }
 
 /* ******************************************************** */
