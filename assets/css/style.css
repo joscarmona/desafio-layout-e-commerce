@@ -58,7 +58,38 @@ nav h3{
 /* ******************************************************** */
 .productos{
     grid-area: productos;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    /* text-align: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-right: 10px;
+    border: solid 2px red;
+}
+
+.producto-1{
+    /* grid-area: producto-1; */
+    border: solid 1px black;
+}
+
+.producto-2{
+    /* grid-area: producto-2; */
+    border: solid 1px black;
+}
+
+.producto-3{
+    /* grid-area: producto-3; */
+    border: solid 1px black;
+}
+
+.producto-4{
+    /* grid-area: producto-4; */
+    border: solid 1px black;
 }
 
 /* ******************************************************** */
